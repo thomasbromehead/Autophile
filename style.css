@@ -1,0 +1,136 @@
+/*Universal Styles*/
+
+*{
+	font-size:16px;
+	margin: 0 auto;
+	}
+
+
+body{
+	font-family: 'Nunito', 'sans-serif';
+}
+
+h1{
+	font-size:10rem;
+	font-family: Nunito, 'sans-serif';
+	background-color: rgba(255,255,255,0.6);
+	color:rgba(10,10,10,0.8);
+	margin-bottom: 2rem;
+	text-align: center;
+}
+
+h2{
+	font-family: Nunito, 'sans-serif';
+}
+
+h3{
+	text-align: center;
+}
+
+
+/*Header*/
+
+header{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-image: url('Images/mecanique.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	width:100%;
+	height:700px;
+}
+
+input[type="location"]{
+	height:auto;
+	margin-bottom:1rem;
+	font-size:2.25rem;
+	padding: 0.2rem 0;
+	box-shadow: 10px 4px 5px #1C1D21;
+	background-color: #93A3B1;
+
+
+}
+input[type="location"]::placeholder{
+	color:#1C1D21;
+	font-weight:400;
+	padding-left: 1rem;
+}
+
+button{
+	border-radius:1rem;
+	background-color:#A57F60;
+	font-size:3rem;
+	font-weight: 800;
+	padding:0.5rem 2rem;
+	color:white;
+	text-transform: capitalize;
+}
+
+.row{
+	text-align: center;
+	box-sizing: border-box;
+	padding-top:2rem;
+
+}
+.row ul{
+	font-weight: bold;
+	margin-left:-1rem;
+	list-style: none;
+}
+
+.row p{
+	font-size:1.7rem;
+}
+
+.attention{
+	font-weight: bold;
+	text-decoration: underline;
+	font-size:2rem;
+}
+
+.usp{
+	margin-top:3rem;
+}
+
+.tagline{
+	display: flex;
+	width:90%;
+	flex-direction: column;
+	justify-content: space-around;
+	border:2px solid rgba(30,30,30, 0.1);
+	box-shadow:-20px 20px 5px rgba(60,0,0,0.15);
+	background-color: rgba(60,0,0,0.05);
+	margin: 3rem auto;
+
+}
+
+.tagline span{
+	color:#BE6E46;
+	font-family: Nunito;
+	font-size:3rem;
+	font-weight: 800;
+}
+
+/*Icons*/
+
+.fa-map-marker-alt{
+	color:orange;
+
+}
+
+.fa-wrench{
+	color:orange;
+}
+
+.fa-3x:hover{
+	opacity: 0.5;
+}
+
+/*footer*/
+footer{
+	background-color:rgba(0,0,0,0.5);
+	color:white;
+}
